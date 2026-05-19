@@ -1,96 +1,26 @@
-/*configuração inicial*/
 *{
-    margin:0;
-    padding:0;
-    box-sizing : 0;
+    box-sizing: border-box;
+    
 }
 
-body{
-    background-color : purple;/*mudar*/
-    color: black;/*mudar*/
-    display:flex;
-    justify-content : center;
-    align-items : center;
-}
-#app{
-    background : pink;/*mudar*/
-    display:flex;
-    flex-direction:column;
-    width:380px;/*mudar*/
-    height:500px;/*mudar*/
-    padding:15px;/*mudar*/
-    border-radius: 15px;
-    box-shadow:0 0 10px rgba(255, 0, 0, 0.5);/*mudar*/
-}
 main{
-    padding : 30px;
-    height : 100%;
-    display: flex;
-    flex-direction : column;
-    align-items : center;
-    text-align : center;
-}
-nav{
-    border-top : 2px solid black;
-    display : flex;
-    align-items : center;
-    padding : 10px;
-    justify-content:space-between;
-}
-body{
-    min-height:100vh;
+width: 100%;
+margin: 0 auto 0 auto;
+
+background-color: rgba(174, 168, 159, 0.268);
+
+
 
 }
-#msg{
-    width:100%;
-    overflow-wrap : break-word;
-    word-wrap : break-word;
-    font-size : 18px;/*m*/
-}
+img{
+width: 100%;
 
-button{
-    width:80px;/*m*/
-    height:80px;
-    background:radial-gradient(circle,blue,blue);/*m*/
-    border-radius:50%;
-    border:none;
-    cursor:pointer;
-    margin-top:auto;
-    color:azure;/*m*/
-    transition:0.3s;
 }
-button:hover{
-    scale:1.1;
-}
-
-@media(max-width:480px){
-
-#app{
-    width:100vw;
-    height:100vh;
-    border-radius:0;
-}
-main{
-    padding:20px;
-}
-}
-body{
-    flex-direction: column;
-}
-#app{
-    margin: 50px;
-}
-header{
-    color:aqua;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    padding: 10px;
-}
-
-footer{
-    padding: 20px;
+div{
+    text-align: center;
+  
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif ;
+ background-color: rgb(236, 26, 197);
+   
 }
